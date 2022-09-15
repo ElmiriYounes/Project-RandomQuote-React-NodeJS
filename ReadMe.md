@@ -4,8 +4,8 @@
 
 ## Table of Contents
 
-1. [About the project](##🚀%20About%20the%20project)
-* [Built with](###Built%20with)
+1. [About the project](##%20🚀%20About%20the%20project)
+* [Built with](###%20Built%20with)
 2. [Get started](##Get-started)
 3. [Contact](##Contact)
 
@@ -26,7 +26,7 @@ This a project during my training at Becode.org, to show my skills 🧠.
 
 * ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-## ⚡️ Get started
+## Get started
 
 * Clone the repository:
     ```gitbash
