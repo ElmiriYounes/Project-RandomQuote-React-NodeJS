@@ -1,4 +1,4 @@
-## Quote random using ReactJS & NodeJS![image info](./view/src/assets/images/randomQuote.png)
+![image info](./view/src/assets/images/randomQuote.png)
 
 # Random quote project
 
