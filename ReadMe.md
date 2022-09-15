@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-1. [About the project](#about-the-project)
+1. [About the project](#🚀-about-the-project)
 * [Built with](#built-with)
 2. [Get started](#get-started)
 3. [Contact](#contact)
