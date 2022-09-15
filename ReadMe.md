@@ -4,17 +4,17 @@
 
 ## Table of Contents
 
-1. [About the project](##%20🚀%20About%20the%20project)
-* [Built with](###%20Built%20with)
+1. [About the project](#about-the-project)
+* [Built with](#built-with)
 2. [Get started](#get-started)
-3. [Contact](##contact)
+3. [Contact](#contact)
 
 ## 🚀 About-the-project
 
 This a random quote project, it generates randomly a quote from an API.
 This a project during my training at Becode.org, to show my skills 🧠.
 
-### Built with
+### 🛠 Built with
 
 * ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
@@ -26,7 +26,7 @@ This a project during my training at Becode.org, to show my skills 🧠.
 
 * ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-## Get started
+## ⚡️ Get started
 
 * Clone the repository:
     ```gitbash
