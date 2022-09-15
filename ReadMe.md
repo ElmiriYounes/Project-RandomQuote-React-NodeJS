@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-1. [About the project](##About-the-project)
+1. [About the project](##-🚀-About-the-project)
 * [Built with](###Built-with)
 2. [Get started](##Get-started)
 3. [Contact](##Contact)
@@ -14,7 +14,7 @@
 This a random quote project, it generates randomly a quote from an API.
 This a project during my training at Becode.org, to show my skills 🧠.
 
-### 🛠 Built with
+### Built with
 
 * ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
