@@ -6,7 +6,7 @@
 
 1. [About the project](##%20🚀%20About%20the%20project)
 * [Built with](###%20Built%20with)
-2. [Get started](Get%20started)
+2. [Get started](#Get%20started)
 3. [Contact](##Contact)
 
 ## 🚀 About-the-project
