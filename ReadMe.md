@@ -2,15 +2,7 @@
 
 # Random quote project
 
-## Table of Contents
-
-1. [About the project](#about-the-project)
-* [Built with](#built-with)
-2. [Get started](#get-started)
-3. [Contact](#contact)
-
-🚀
-## About-the-project
+## About-the-project 🚀
 
 This a random quote project, it generates randomly a quote from an API.
 This a project during my training at Becode.org, to show my skills 🧠.
