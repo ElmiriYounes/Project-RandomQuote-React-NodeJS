@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
-1. [About the project](#About-the-project)
-* [Built with](#Built-with)
-2. [Get started](#Get-started)
-3. [Contact](#Contact)
+1. [About the project](##About-the-project)
+* [Built with](###Built-with)
+2. [Get started](##Get-started)
+3. [Contact](##Contact)
 
-## 🚀 About the project[#About-the-project]
+## 🚀 About the project
 
 This a random quote project, it generates randomly a quote from an API.
 This a project during my training at Becode.org, to show my skills 🧠.
