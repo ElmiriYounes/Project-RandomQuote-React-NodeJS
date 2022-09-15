@@ -4,10 +4,10 @@
 
 ## Table of Contents
 
-1. [About the project](#my-first-title)
-* [Built with](#built-with)
-2. [Get started](#get-started)
-3. [Contact](#contact)
+1. [About the project](#About-the-project)
+* [Built with](#Built-with)
+2. [Get started](#Get-started)
+3. [Contact](#Contact)
 
 ## 🚀 About the project
 
