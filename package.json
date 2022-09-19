@@ -3,7 +3,9 @@
   "description": "![image info](./view/src/assets/images/demo.gif)",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
