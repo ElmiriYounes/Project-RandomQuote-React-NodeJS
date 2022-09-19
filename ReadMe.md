@@ -1,4 +1,4 @@
-![image info](./view/src/assets/images/randomQuote.png)
+![image info](./view/src/assets/images/demo.gif)
 
 # Random quote project
 
@@ -31,10 +31,17 @@ This a project during my training at Becode.org, to show my skills 🧠.
     npm install 
     ```
 
-* Launch the project (in the folder "view"):
-    ```gitbash
-    npm start
-    ```
+* Launch the project:
+
+    1. launch server side (from the root folder)
+        ```gitbash
+        node app.js
+        ```
+
+    2. launch client side (from the folder 'view')
+        ```gitbash
+        npm start
+        ```
 
 ## 💬 Contact
 
