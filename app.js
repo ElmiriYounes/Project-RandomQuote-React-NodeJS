@@ -3,6 +3,7 @@ const app = express();
 const quoteRoute = require("./routes/quoteRandom");
 var cors = require('cors')
 
+
 const port = 5000;
 
 app.use(cors())
