@@ -33,12 +33,12 @@ This a project during my training at Becode.org, to show my skills 🧠.
 
 * Launch the project:
 
-    1. launch server side (from the root folder)
+    * launch server side (from the root folder)
         ```gitbash
         node app.js
         ```
 
-    2. launch client side (from the folder 'view')
+    * launch client side (from the folder 'view')
         ```gitbash
         npm start
         ```
