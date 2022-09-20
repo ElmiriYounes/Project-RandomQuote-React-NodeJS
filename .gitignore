@@ -3,27 +3,5 @@
 
 # dependencies
 /node_modules
-view/node_modules
-view/.pnp
-view/.pnp.js
 
-# testing
-view/coverage
-
-# production
-view/build
-
-# misc
-view/.DS_Store
-view/.env.local
-view/.env.development.local
-view/.env.test.local
-view/.env.production.local
-
-view/npm-debug.log*
-view/yarn-debug.log*
-view/yarn-error.log*
-=======
-# dependencies
-view/node_modules
->>>>>>> e1525c4b79c6476f301fdeeeed3cb9f8e810afa5
+.env
