@@ -36,6 +36,7 @@ const QuoteRandom: React.FC = () => {
    * Generate quote randomly
    */
   const generateQuote = async () => {
+    https.globalAgent.options.rejectUnauthorized = false;
     const response = await axios.get(
       "http://ec2-52-39-75-111.us-west-2.compute.amazonaws.com:5000/api/random"
     );
