@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import https from "https";
 import Button from "../button/Button";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { BiLoaderCircle } from "react-icons/bi";
@@ -36,16 +35,10 @@ const QuoteRandom: React.FC = () => {
    * Generate quote randomly
    */
   const generateQuote = async () => {
-    const httpsAgent = new https.Agent({
-      rejectUnauthorized: false,
-      requestCert: false,
-    });
-    const response = await axios.get(
-      "http://ec2-52-39-75-111.us-west-2.compute.amazonaws.com:5000/api/random",
-      { httpsAgent: httpsAgent }
-    );
-
-    // const response = await axios.get("http://localhost:5000/api/random");
+    const response = await axios.get("http://localhost:5000/api/random");
+    // const response = await axios.get(
+    //   "http://ec2-52-39-75-111.us-west-2.compute.amazonaws.com:5000/api/random"
+    // );
 
     setQuoteRandomText(response.data.content);
     setQuoteRandomAuthor(response.data.author);
