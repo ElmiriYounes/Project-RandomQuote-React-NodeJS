@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Project-RandomQuote-React-NodeJS/static/js/main.7ffa6daa.js",
+    "main.js": "/Project-RandomQuote-React-NodeJS/static/js/main.3fcd14cc.js",
     "index.html": "/Project-RandomQuote-React-NodeJS/index.html",
-    "main.7ffa6daa.js.map": "/Project-RandomQuote-React-NodeJS/static/js/main.7ffa6daa.js.map"
+    "main.3fcd14cc.js.map": "/Project-RandomQuote-React-NodeJS/static/js/main.3fcd14cc.js.map"
   },
   "entrypoints": [
-    "static/js/main.7ffa6daa.js"
+    "static/js/main.3fcd14cc.js"
   ]
 }
