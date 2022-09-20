@@ -36,9 +36,6 @@ const QuoteRandom: React.FC = () => {
    */
   const generateQuote = async () => {
     const response = await axios.get("http://localhost:5000/api/random");
-    // const response = await axios.get(
-    //   "http://ec2-52-39-75-111.us-west-2.compute.amazonaws.com:5000/api/random"
-    // );
 
     setQuoteRandomText(response.data.content);
     setQuoteRandomAuthor(response.data.author);
