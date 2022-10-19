@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ElmiriYounes/Project-RandomQuote-React-NodeJS/issues"
   },
-  "homepage": "https://github.com/ElmiriYounes/Project-RandomQuote-React-NodeJS#readme",
+  // "homepage": "https://github.com/ElmiriYounes/Project-RandomQuote-React-NodeJS#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "cors": "^2.8.5",
