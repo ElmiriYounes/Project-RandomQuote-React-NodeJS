@@ -1,13 +1,13 @@
 import styled, { css, keyframes } from "styled-components";
 
-const boundingKeyframes = css`
-  from {
+const boundingKeyframes = keyframes`
+  0% {
     width: 100%;
     height: 100%;
     opacity: 1;
   }
 
-  to {
+  100% {
     width: 140%;
     height: 140%;
     opacity: 0;
@@ -49,11 +49,31 @@ export const ButtonWrapper = styled.div`
   }
 
   @-webkit-keyframes bounding {
-    ${boundingKeyframes}
+    0% {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 140%;
+    height: 140%;
+    opacity: 0;
+  }
   }
 
   @keyframes bounding {
-    ${boundingKeyframes}
+    0% {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 140%;
+    height: 140%;
+    opacity: 0;
+  }
   }
 `;
 
@@ -65,7 +85,7 @@ export const ButtonComponent = styled.button`
   border: 0px solid black;
   cursor: pointer;
   display: block;
-  color: rgb(9, 139, 4);
+  color: rgb(83, 10, 167);
   position: relative;
   z-index: 1;
 
