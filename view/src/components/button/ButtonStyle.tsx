@@ -1,17 +1,22 @@
 import styled, { css, keyframes } from "styled-components";
+import { motion } from "framer-motion";
 
-const boundingKeyframes = keyframes`
-  0% {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-  }
+const boundingStyles = css`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: rgb(96, 217, 250);
+  border-radius: 50%;
+  z-index: 0;
+`;
 
-  100% {
-    width: 140%;
-    height: 140%;
-    opacity: 0;
-  }
+export const Bounding1 = styled(motion.div)`
+  ${boundingStyles}
+`;
+
+export const Bounding2 = styled(motion.div)`
+  ${boundingStyles}
 `;
 
 export const ButtonWrapper = styled.div`
@@ -23,58 +28,6 @@ export const ButtonWrapper = styled.div`
   width: 120px;
   height: 120px;
   position: relative;
-
-  &::before {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    content: "";
-    background-color: rgb(96, 217, 250);
-    -webkit-animation: bounding 4s 0s ease-in-out infinite;
-    animation: bounding 4s 0s ease-in-out infinite;
-    border-radius: 50%;
-    z-index: 0;
-  }
-
-  &::after {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    content: "";
-    background-color: rgb(96, 217, 250);
-    -webkit-animation: bounding 4s 2s ease-in-out infinite;
-    animation: bounding 4s 2s ease-in-out infinite;
-    border-radius: 50%;
-    z-index: 0;
-  }
-
-  @keyframes bounding {
-    0% {
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-    }
-
-    100% {
-      width: 140%;
-      height: 140%;
-      opacity: 0;
-    }
-  }
-
-  @-webkit-keyframes bounding {
-    0% {
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-    }
-
-    100% {
-      width: 140%;
-      height: 140%;
-      opacity: 0;
-    }
-  }
 `;
 
 export const ButtonComponent = styled.button`
@@ -82,10 +35,10 @@ export const ButtonComponent = styled.button`
   height: 100%;
   border-radius: 50%;
   background-color: rgb(22, 22, 22);
-  border: 0px solid black;
+  border: 2px solid rgb(96, 217, 250);
   cursor: pointer;
   display: block;
-  color: rgb(83, 10, 167);
+  color: rgb(96, 217, 250);
   position: relative;
   z-index: 1;
 
