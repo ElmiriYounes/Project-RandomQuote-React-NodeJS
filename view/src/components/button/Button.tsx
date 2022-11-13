@@ -23,10 +23,10 @@ const Button: React.FC<ButtonProps> = (props) => {
         }}
         animate={{
           opacity: 0,
-          width: "150%",
-          height: "150%",
+          width: "120%",
+          height: "120%",
         }}
-        transition={{ duration: 2, repeat: Infinity }}
+        transition={{ duration: 1, repeat: Infinity }}
       />
       <Bounding2
         initial={{
@@ -36,8 +36,8 @@ const Button: React.FC<ButtonProps> = (props) => {
         }}
         animate={{
           opacity: 0,
-          width: "150%",
-          height: "150%",
+          width: "120%",
+          height: "120%",
         }}
         transition={{ duration: 2, repeat: Infinity }}
       />
