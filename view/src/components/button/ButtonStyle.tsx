@@ -43,6 +43,7 @@ export const ButtonWrapper = styled.div`
         width: 100%;
         content: '';
         background-color: rgb(96,217,250);
+        -webkit-animation: ${bounding} 4s 2s ease-in-out infinite;
         animation: ${bounding} 4s 2s ease-in-out infinite;
         border-radius: 50%;
         z-index: 0;
