@@ -48,32 +48,32 @@ export const ButtonWrapper = styled.div`
     z-index: 0;
   }
 
-  @-webkit-keyframes bounding {
-    0% {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-  }
-
-  100% {
-    width: 140%;
-    height: 140%;
-    opacity: 0;
-  }
-  }
-
   @keyframes bounding {
     0% {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+    }
+
+    100% {
+      width: 140%;
+      height: 140%;
+      opacity: 0;
+    }
   }
 
-  100% {
-    width: 140%;
-    height: 140%;
-    opacity: 0;
-  }
+  @-webkit-keyframes bounding {
+    0% {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+    }
+
+    100% {
+      width: 140%;
+      height: 140%;
+      opacity: 0;
+    }
   }
 `;
 
