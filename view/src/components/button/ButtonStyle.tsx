@@ -1,6 +1,6 @@
-import styled, { keyframes } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
-const boundingKeyframes = keyframes`
+const boundingKeyframes = css`
   from {
     width: 100%;
     height: 100%;
@@ -65,7 +65,7 @@ export const ButtonComponent = styled.button`
   border: 0px solid black;
   cursor: pointer;
   display: block;
-  color: rgb(139, 4, 4);
+  color: rgb(9, 139, 4);
   position: relative;
   z-index: 1;
 
