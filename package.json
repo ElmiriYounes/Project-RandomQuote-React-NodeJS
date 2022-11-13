@@ -1,5 +1,6 @@
 {
   "name": "quoterandom",
+  "homepage": "https://elmiriyounes.github.io/Project-RandomQuote-React-NodeJS",
   "description": "![image info](./view/src/assets/images/demo.gif)",
   "version": "1.0.0",
   "main": "app.js",
