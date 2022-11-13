@@ -65,7 +65,7 @@ export const ButtonComponent = styled.button`
   border: 0px solid black;
   cursor: pointer;
   display: block;
-  color: rgb(96, 217, 250);
+  color: rgb(139, 4, 4);
   position: relative;
   z-index: 1;
 
